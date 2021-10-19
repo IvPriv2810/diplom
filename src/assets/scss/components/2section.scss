@@ -1,0 +1,72 @@
+.second {
+    position: relative;
+}
+.we {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+    justify-content: center;
+}
+.dog {
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+.dog1{
+    text-align: left;
+    padding: 20px 100px 20px 150px;
+}
+.dog1 h1 {
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000;
+}
+.patients {
+    border-bottom: 3px solid  #F7A500;
+    text-align: left;
+    padding: 40px 100px 20px 150px;   
+}
+.patients h1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA;
+}
+.patients p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+.tailored {
+    text-align: left;
+    padding: 10px 100px 20px 150px;
+    border-bottom: 3px solid  #F7A500;
+}
+.tailored h1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA;
+}
+.tailored h2 {
+    font-size: 16px;
+line-height: 23px;
+color: #000000;
+font-weight: normal;
+}
+.tailored p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+}
+.support {
+    text-align: left;
+    padding: 10px 100px 20px 150px;
+}
+.support h1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #6F1EAA; 
+}
+.support p {
+    font-size: 11px;
+    line-height: 23px;
+    color: #000000;  
+}

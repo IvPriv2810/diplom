@@ -3,9 +3,20 @@
 @import 'utils/mixins';//миксины scss
 
 //Общее
-//@import 'main/stylesheet';// шрифты
+@import 'main/stylesheet.css'; // шрифты
 //@import 'main/reset'; // сброс стилей для кроссбраузерности
 //@import 'main/common'; // общие стили
 
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
-@import 'components/header';
+html {
+    max-width: 1440px;
+    position: relative;
+    margin: auto; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    }
+@import 'components/header.scss';
+@import "components/1section.scss";
+@import "components/2section.scss";
+@import "components/3section.scss"

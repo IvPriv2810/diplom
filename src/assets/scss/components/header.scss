@@ -1,3 +1,55 @@
 // для каждого компонента нужно импортить переменные, чтобы их использовать
-@import "../utils/parameters";
-@import "../utils/mixins";
+//@import "../utils/parameters";
+//@import "../utils/mixins";
+.header { 
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+   
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    margin: 15px 110px;
+    }
+.nav { 
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.nav ul{
+    padding: 0px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav a {
+    padding: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+margin:auto;
+}
+.vet {
+    margin-left:160px;
+    margin-right: 0px;
+    margin-top: 24px;
+    border: none;
+    text-decoration: none;
+    color:#6F1EAA ;
+    font-size: 14px;
+    line-height: 18px;
+}
+.try {
+    margin-top: 24px;
+    margin-left: 33px;
+    border-radius: 19px;
+    background-color: #6F1EAA;
+    padding: 10px 33px;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+}

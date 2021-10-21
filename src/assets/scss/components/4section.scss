@@ -1,0 +1,48 @@
+.forth {
+    position: relative;
+}
+.forth_col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+.forth_cont {
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+.forth_img {
+    padding: 45px 0px 0px 160px;
+}
+.forth_text {
+    padding: 180px 225px 0px 0px;
+}
+.forth_text h2 {
+    font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.96px;
+text-transform: uppercase;
+color: #F7A500;
+    }
+    .forth_text h1 {
+        font-size: 44px;
+        line-height: 53px;
+        color: #000000;
+    }
+    .forth_text p {
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+    } 
+.forth_but {
+    text-align: left;
+    margin-top: 25px;
+    padding-left:10px ;
+}
+.forth_but button {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #6F1EAA;
+    border-radius: 24px;  
+    padding: 15px 40px; 
+}

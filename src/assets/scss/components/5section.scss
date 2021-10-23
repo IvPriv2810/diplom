@@ -1,0 +1,56 @@
+.fifth {
+    position: relative;
+}
+.pets  {
+    text-align: center;
+}
+.pets h1 {
+    font-size: 43px;
+line-height: 53px;
+color: #000000;
+}
+.see {
+    text-align: center; 
+}
+.see p {
+    font-size: 20px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+}
+.heart {
+    position: absolute;
+    right: 65px;
+    top: 10px;
+    z-index: 1; 
+}
+.slide {
+    width: 1072px;
+    display:flex;
+    background-color: #DFF5F6;
+   position: relative;
+   left: 164px;
+}
+.dog4 {
+    flex-grow: 1;
+   margin: 58px 40px;
+}
+.slide_text {
+    flex-grow: 4;
+    text-align: left;
+    margin-top: 95px;
+    margin-right: 45px;
+}
+.slide_text p {
+    font-size: 16px;
+line-height: 26px;
+color: #000000;
+}
+.slide_text2 {
+    display: block;
+}
+.slide_text2 p {
+font-size: 20px;
+line-height: 33px;
+color: #000000;
+}

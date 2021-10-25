@@ -23,10 +23,10 @@ color: #000000;
 margin-right: auto;
 }
 .six_row2 {
-    width: 384px;
+    margin-right: 30px;
 }
 .six_row3 {
-    width: 384px;
+    margin-left: 30px;  
 }
 .six_row4 {
    text-align: right;
@@ -61,5 +61,21 @@ color: #6F1EAA;
     margin-top: 40px;
 }
 .six_row2text {
-    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    padding: 0px 0px 0px 30px;
+}
+.six_row3text {
+    padding: 0 0 0 30px;
+}
+.six_but {
+    margin-top: 100px;
+    text-align: center;
+}
+.six_but button {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #6F1EAA;
+    border-radius: 24px;
+    padding: 15px 40px;
 }

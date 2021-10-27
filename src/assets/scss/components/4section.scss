@@ -46,3 +46,40 @@ color: #F7A500;
     border-radius: 24px;  
     padding: 15px 40px; 
 }
+
+@media screen and (max-width: 1350px ) {
+    .forth_text  {
+        padding-left: 40px;
+    } 
+    .forth_but {
+        text-align: left;
+        margin-top: 25px;
+        padding-left:40px ;
+    }
+    }
+    
+    @media screen and (max-width: 1161px ) {
+        .forth_col {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .forth_cont {
+            flex: 1 0 50%;
+            max-width: 50%;
+            padding: 0px 15px;
+        }
+        .forth_text  {
+        padding: 0px;
+        
+        } 
+        .forth_but {
+           text-align: center;
+        }
+        .forth_img {
+            text-align: center;
+            padding: 0px;
+        }
+        } 
+        
+        

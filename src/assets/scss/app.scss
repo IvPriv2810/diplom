@@ -9,12 +9,16 @@
 
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 html {
-    max-width: 1440px;
+    box-sizing: border-box;
     position: relative;
-    margin: auto; 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
+    }
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 @import 'components/header1.scss';
 @import "components/1section.scss";

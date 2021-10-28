@@ -1,72 +1,96 @@
 .second {
     position: relative;
+
+    &__row1{
+        display: flex;
+    }
+
+    &__row {
+        flex: 1 0 50%;
+        max-width: 50%;
+    }
+
+    &__item1 {
+        max-width: 527px;
+        margin: auto;
+        text-align: left;
+    }
+
+    &__item1 h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 44px;
+        line-height: 120%;
+        color: #000000;
+    }
+
+    &__dog {
+        text-align: center;
+    }
+
+    &__item2 {
+        max-width: 527px;
+        margin: auto;
+        text-align: left;
+        padding: 25px 0px 0px;
+    }
+
+    &__item2 h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 132%;
+        color: #6F1EAA;
+    }
+
+    &__patients {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 2px #F7A500; 
+    }
+
+    &__patients p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 142%;
+        color: #000000;
+    }
+
+    &__tailored {
+
+    }
+    &__tailored h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 142%;
+        color: #000000;
+    }
+    &__tailored p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 151%;
+        color: #000000;
+    }
+
+    &__support {
+        margin-top: 20px;
+        padding-top: 5px;
+        border-top: solid 2px #F7A500; 
+    }
+    &__support p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 207%;  
+        color: #000000;
+    }
 }
-.we {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px -15px;
-    justify-content: center;
-}
-.dog {
-    flex: 1 0 50%;
-    max-width: 50%;
-}
-.dog1{
-    text-align: left;
-    padding: 20px 100px 20px 150px;
-}
-.dog1 h1 {
-    font-size: 44px;
-    line-height: 53px;
-    color: #000000;
-}
-.patients {
-    border-bottom: 3px solid  #F7A500;
-    text-align: left;
-    padding: 40px 100px 20px 150px;   
-}
-.patients h1 {
-    font-size: 24px;
-    line-height: 32px;
-    color: #6F1EAA;
-}
-.patients p {
-    font-size: 16px;
-    line-height: 23px;
-    color: #000000;
-}
-.tailored {
-    text-align: left;
-    padding: 10px 100px 20px 150px;
-    border-bottom: 3px solid  #F7A500;
-}
-.tailored h1 {
-    font-size: 24px;
-    line-height: 32px;
-    color: #6F1EAA;
-}
-.tailored h2 {
-    font-size: 16px;
-line-height: 23px;
-color: #000000;
-font-weight: normal;
-}
-.tailored p {
-    font-size: 15px;
-    line-height: 23px;
-    color: #000000;
-}
-.support {
-    text-align: left;
-    padding: 10px 100px 20px 150px;
-}
-.support h1 {
-    font-size: 24px;
-    line-height: 32px;
-    color: #6F1EAA; 
-}
-.support p {
-    font-size: 11px;
-    line-height: 23px;
-    color: #000000;  
-}
+

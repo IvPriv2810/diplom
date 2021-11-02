@@ -47,3 +47,59 @@
     }
 
 }
+
+@media screen and (max-width: 991.75px) {
+    .first {
+
+        &__mid h1 {
+            font-size: 40px;
+        }
+
+        &__mid p {
+            font-size: 15px;
+        }
+
+        &__flow {
+            height: 345px;
+        }
+
+        &__flow2 {
+            height: 455px;
+        }
+
+        &__mid button {
+            font-size: 10px;
+            padding: 10px 25px;
+        }
+
+        &__rab {
+            transform: scale(0.7);
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 767.75px) {
+
+    .first {
+        
+        &__flow {
+            height: 239px;
+        }
+
+        &__mid {
+            padding: 15px 0px 0px;
+        }
+
+        &__flow2 {
+            height: 197px
+        }
+
+        &__rab {
+            transform: scale(0.5);
+            margin: -60px 0px 0px 45px;
+        }
+    }
+
+}

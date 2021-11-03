@@ -330,9 +330,13 @@ html {
   .third__img {
     margin-top: 40px; }
   .third__text1 {
-    margin-top: 71px; }
+    margin-top: 71px;
+    padding: 0px 15px; }
   .third__text2 {
-    margin-top: 97px; }
+    margin-top: 97px;
+    padding: 0px 15px; }
+  .third__text2 {
+    padding: 0px 15px; }
   .third__but {
     text-align: center;
     margin-top: 65px; }
@@ -344,78 +348,111 @@ html {
     border-radius: 24px;
     padding: 15px 40px; }
 
+@media screen and (max-width: 991.75px) {
+  .third__col2 {
+    width: 150px;
+    height: 150px; }
+  .third__img {
+    margin-top: 11px;
+    transform: scale(0.6); }
+  .third__text1 {
+    margin-top: 71px; }
+  .third__col h2 {
+    font-size: 20px; }
+  .third__col p {
+    font-size: 12px;
+    line-height: 120%; }
+  .third__img3 {
+    transform: scale(0.6);
+    margin-top: -39px; }
+  .third__text1 {
+    margin-top: 20px; }
+  .third__text2 {
+    margin-top: 48px; }
+  .third__text3 {
+    margin-top: -33px; }
+  .third__how {
+    margin-bottom: 20px; }
+  .third__but {
+    margin-top: 25px; }
+  .third__but button {
+    font-size: 10px;
+    padding: 10px 25px; } }
+
+@media screen and (max-width: 767.75px) {
+  .third__col {
+    flex: none;
+    max-width: none; }
+  .third__row {
+    flex-direction: column;
+    align-items: center; }
+  .third__col h2 {
+    line-height: 100%; }
+  .third__col p {
+    line-height: 100%; }
+  .third__text1 {
+    padding: 0px; }
+  .third__text2 {
+    padding: 0px; }
+  .third__text3 {
+    padding: 0px; } }
+
 .forth {
   position: relative; }
-
-.forth_col {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px -15px; }
-
-.forth_cont {
-  flex: 1 0 50%;
-  max-width: 50%; }
-
-.forth_img {
-  padding: 45px 0px 0px 160px; }
-
-.forth_text {
-  padding: 180px 225px 0px 0px; }
-
-.forth_text h2 {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.96px;
-  text-transform: uppercase;
-  color: #F7A500; }
-
-.forth_text h1 {
-  font-size: 44px;
-  line-height: 53px;
-  color: #000000; }
-
-.forth_text p {
-  font-size: 16px;
-  line-height: 23px;
-  color: #000000; }
-
-.forth_but {
-  text-align: left;
-  margin-top: 25px;
-  padding-left: 10px; }
-
-.forth_but button {
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  background: #6F1EAA;
-  border-radius: 24px;
-  padding: 15px 40px; }
-
-@media screen and (max-width: 1350px) {
-  .forth_text {
-    padding-left: 40px; }
-  .forth_but {
-    text-align: left;
-    margin-top: 25px;
-    padding-left: 40px; } }
-
-@media screen and (max-width: 1161px) {
-  .forth_col {
+  .forth__col {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
-  .forth_cont {
+    margin: 0px -15px; }
+  .forth__cont {
     flex: 1 0 50%;
     max-width: 50%;
-    padding: 0px 15px; }
-  .forth_text {
-    padding: 0px; }
-  .forth_but {
-    text-align: center; }
-  .forth_img {
-    text-align: center;
-    padding: 0px; } }
+    align-self: center; }
+  .forth__img {
+    text-align: right; }
+  .forth__text h2 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: #F7A500; }
+  .forth__text h1 {
+    font-size: 44px;
+    line-height: 53px;
+    color: #000000; }
+  .forth__text p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000; }
+  .forth__but {
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 10px; }
+  .forth__but button {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #6F1EAA;
+    border-radius: 24px;
+    padding: 15px 40px; }
+
+@media screen and (max-width: 991.75px) {
+  .forth__img {
+    text-align: right;
+    transform: scale(0.6);
+    margin-top: -100px; }
+  .forth__text {
+    margin-top: -100px; }
+  .forth__text h2 {
+    font-size: 14px; }
+  .forth__text h1 {
+    font-size: 30px;
+    line-height: 100%; }
+  .forth__text p {
+    font-size: 12px;
+    line-height: 100%; }
+  .forth__but button {
+    padding: 10px 25px;
+    font-size: 12px; } }
 
 .fifth {
   position: relative; }

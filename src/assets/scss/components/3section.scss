@@ -61,10 +61,16 @@
 
     &__text1 {
         margin-top: 71px;
+        padding: 0px 15px;
     }
 
     &__text2 {
         margin-top: 97px;
+        padding: 0px 15px;
+    }
+
+    &__text2 {
+        padding: 0px 15px;
     }
 
     &__but {
@@ -83,8 +89,101 @@
 
 }
 
+@media screen and (max-width: 991.75px) {
+
+    .third {
+
+        &__col2 {
+            width: 150px;
+            height: 150px;
+        }
+
+        &__img {
+            margin-top: 11px;
+            transform: scale(0.6);
+        }
+
+        &__text1 {
+            margin-top: 71px;
+        }
+
+        &__col h2 {
+            font-size: 20px;
+        }
+
+        &__col p {
+            font-size: 12px;
+            line-height: 120%;
+        }
+
+        &__img3 {
+            transform: scale(0.6);
+            margin-top: -39px;   
+        }
+
+        &__text1 {
+            margin-top: 20px;
+        }
+
+        &__text2 {
+            margin-top: 48px;
+        }
+
+        &__text3 {
+            margin-top: -33px;
+        }
+
+        &__how {
+            margin-bottom: 20px;
+        }
+
+        &__but {
+            margin-top: 25px;
+        }
+
+        &__but button {
+            font-size: 10px;
+            padding: 10px 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 767.75px) {
+
+    .third {
+
+        &__col {
+            flex: none;
+            max-width: none;
+        }
+
+        &__row {
+            flex-direction: column;
+            align-items: center;
+        }
         
-        
-        
+        &__col h2 {
+            line-height: 100%;
+        }
+
+        &__col p {
+            line-height: 100%;
+        }
+
+        &__text1 {
+            padding: 0px;
+        }
+
+        &__text2 {
+            padding: 0px;
+        }
+
+        &__text3 {
+            padding: 0px;
+        }
+
+    }
+}
+
         
     

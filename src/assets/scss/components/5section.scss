@@ -1,84 +1,75 @@
 .fifth {
     position: relative;
-}
-.pets  {
+
+    &__container2 {
+        width: 80%;
+        margin:0 auto;
+    }
+
+    &__pets  {
+        text-align: center;
+    }
+
+    &__pets h1 {
+        font-size: 43px;
+        line-height: 53px;
+        color: #000000;
+    }
+
+    &__see {
+        text-align: center; 
+    }
+
+    &__see p {
+        font-size: 20px;
+    line-height: 33px;
     text-align: center;
-}
-.pets h1 {
-    font-size: 43px;
-line-height: 53px;
-color: #000000;
-}
-.see {
-    text-align: center; 
-}
-.see p {
-    font-size: 20px;
-line-height: 33px;
-text-align: center;
-color: #000000;
-}
-.heart {
-    position: absolute;
-    right: 65px;
-    top: 10px;
-    z-index: 1; 
-}
-.slide {
-    width: 1072px;
-    display:flex;
-    background-color: #DFF5F6;
-   position: relative;
-   left: 164px;
-}
-.dog4 {
-    flex-grow: 1;
-   margin: 58px 40px;
-}
-.slide_text {
-    flex-grow: 4;
-    text-align: left;
-    margin-top: 95px;
-    margin-right: 45px;
-}
-.slide_text p {
-    font-size: 16px;
-line-height: 26px;
-color: #000000;
-}
-.slide_text2 {
-
-}
-.slide_text2 p {
-font-size: 20px;
-line-height: 33px;
-color: #000000;
-}
-
-@media screen and (max-width: 1160px){
-    .slide {
-        flex-wrap: wrap;
-        justify-content: left;
-        display:flex;
-        background-color: #DFF5F6;
-       position: relative;
-       left: 164px;
-    }
-    .dog4 {
-        flex-grow: 1;
-       margin: 0px;
-       text-align: center;
-    } 
-    .slide_text p {
-        font-size: 16px;
-    line-height: 26px;
     color: #000000;
-    padding: 0px 100px;
-    } 
-    .slide_text2 img{
-        padding: 0px 100px;
     }
-    .heart {
-        visibility: hidden;
+
+    &__heart {
+        position: absolute;
+        right: 65px;
+        top: 10px;
+        z-index: 1; 
     }
-} 
+
+        &__slide {
+            display:flex;
+            background-color: #DFF5F6;
+        }
+
+        &__dog4 {
+            flex-grow: 1;
+           margin: 58px 40px;
+        }
+
+        &__slide_text {
+            flex-grow: 4;
+            text-align: left;
+            margin-top: 95px;
+            margin-right: 45px;
+        }
+
+        &__slide_text p {
+            font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        }
+
+        &__slide_text2 p {
+            font-size: 20px;
+            line-height: 33px;
+            color: #000000;
+            }
+}
+
+@media screen and (max-width: 1229.75px) {
+        .fifth {
+
+            &__dog4 {
+                margin: 100px 40px;
+            }
+        }
+}
+

@@ -454,80 +454,65 @@ html {
     padding: 10px 25px;
     font-size: 12px; } }
 
+@media screen and (max-width: 768.75px) {
+  .forth__img {
+    display: none; }
+  .forth__cont {
+    flex: none;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px; }
+  .forth__text {
+    margin-top: 0px; }
+  .forth__but {
+    text-align: center; } }
+
 .fifth {
   position: relative; }
-
-.pets {
-  text-align: center; }
-
-.pets h1 {
-  font-size: 43px;
-  line-height: 53px;
-  color: #000000; }
-
-.see {
-  text-align: center; }
-
-.see p {
-  font-size: 20px;
-  line-height: 33px;
-  text-align: center;
-  color: #000000; }
-
-.heart {
-  position: absolute;
-  right: 65px;
-  top: 10px;
-  z-index: 1; }
-
-.slide {
-  width: 1072px;
-  display: flex;
-  background-color: #DFF5F6;
-  position: relative;
-  left: 164px; }
-
-.dog4 {
-  flex-grow: 1;
-  margin: 58px 40px; }
-
-.slide_text {
-  flex-grow: 4;
-  text-align: left;
-  margin-top: 95px;
-  margin-right: 45px; }
-
-.slide_text p {
-  font-size: 16px;
-  line-height: 26px;
-  color: #000000; }
-
-.slide_text2 p {
-  font-size: 20px;
-  line-height: 33px;
-  color: #000000; }
-
-@media screen and (max-width: 1160px) {
-  .slide {
-    flex-wrap: wrap;
-    justify-content: left;
-    display: flex;
-    background-color: #DFF5F6;
-    position: relative;
-    left: 164px; }
-  .dog4 {
-    flex-grow: 1;
-    margin: 0px;
+  .fifth__container2 {
+    width: 80%;
+    margin: 0 auto; }
+  .fifth__pets {
     text-align: center; }
-  .slide_text p {
+  .fifth__pets h1 {
+    font-size: 43px;
+    line-height: 53px;
+    color: #000000; }
+  .fifth__see {
+    text-align: center; }
+  .fifth__see p {
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000; }
+  .fifth__heart {
+    position: absolute;
+    right: 65px;
+    top: 10px;
+    z-index: 1; }
+  .fifth__slide {
+    display: flex;
+    background-color: #DFF5F6; }
+  .fifth__dog4 {
+    flex-grow: 1;
+    margin: 58px 40px; }
+  .fifth__slide_text {
+    flex-grow: 4;
+    text-align: left;
+    margin-top: 95px;
+    margin-right: 45px; }
+  .fifth__slide_text p {
     font-size: 16px;
     line-height: 26px;
-    color: #000000;
-    padding: 0px 100px; }
-  .slide_text2 img {
-    padding: 0px 100px; }
-  .heart {
-    visibility: hidden; } }
+    color: #000000; }
+  .fifth__slide_text2 p {
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000; }
+
+@media screen and (max-width: 1229.75px) {
+  .fifth__dog4 {
+    margin: 100px 40px; } }
 
 .six {
   position: relative; }

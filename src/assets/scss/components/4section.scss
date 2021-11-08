@@ -86,4 +86,29 @@
         }
     }
 }
+
+@media screen and (max-width: 768.75px) {
+
+    .forth {
+
+        &__img {
+            display: none;
+        }
+
+        &__cont {
+            flex:none;
+            max-width: 100%;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        &__text {
+            margin-top: 0px;
+        }
+
+        &__but {
+            text-align: center;
+        }
+    }
+}
         

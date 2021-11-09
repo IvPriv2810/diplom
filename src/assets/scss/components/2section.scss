@@ -5,15 +5,9 @@
         display: flex;
     }
 
-    &__row {
+    &__item1 {
         flex: 1 0 50%;
         max-width: 50%;
-    }
-
-    &__item1 {
-        max-width: 527px;
-        margin: auto;
-        text-align: left;
     }
 
     &__item1 h2 {
@@ -30,10 +24,9 @@
     }
 
     &__item2 {
-        max-width: 527px;
-        margin: auto;
-        text-align: left;
         padding: 25px 0px 0px;
+        flex: 1 0 50%;
+        max-width: 50%;
     }
 
     &__item2 h2 {

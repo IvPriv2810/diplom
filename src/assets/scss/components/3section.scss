@@ -55,8 +55,16 @@
     border-radius: 50%;
     }
 
+    &__col:hover .third__col2 {
+        transform:  translateX(-50%) scale(1.5);
+    }
+
     &__img {
-        margin-top: 40px;
+        //margin-top: 40px;
+        min-height: 225px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     &__text1 {
@@ -86,7 +94,6 @@
         border-radius: 24px;  
         padding: 15px 40px; 
     }
-
 }
 
 @media screen and (max-width: 991.75px) {
@@ -98,9 +105,12 @@
             height: 150px;
         }
 
-        &__img {
-            margin-top: 11px;
-            transform: scale(0.6);
+        &__img  { 
+            min-height: 135px;
+        }
+
+        &__img img { 
+            max-width: 134px;
         }
 
         &__text1 {
@@ -120,7 +130,6 @@
             transform: scale(0.6);
             margin-top: -39px;   
         }
-
         &__text1 {
             margin-top: 20px;
         }
@@ -129,8 +138,7 @@
             margin-top: 48px;
         }
 
-        &__text3 {
-            margin-top: -33px;
+        &__text {
         }
 
         &__how {

@@ -9,7 +9,6 @@
 
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 html {
-    box-sizing: border-box;
     position: relative;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -19,6 +18,10 @@ html {
         max-width: 1440px;
         margin: 0 auto;
         padding: 0 15px;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 @import 'components/header1.scss';
 @import "components/1section.scss";

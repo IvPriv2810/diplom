@@ -1,6 +1,5 @@
 @import url(main/stylesheet.css);
 html {
-  box-sizing: border-box;
   position: relative;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -10,6 +9,9 @@ html {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 15px; }
+
+* {
+  box-sizing: border-box; }
 
 .header.container {
   max-width: 1250px; }
@@ -178,13 +180,9 @@ html {
   position: relative; }
   .second__row1 {
     display: flex; }
-  .second__row {
+  .second__item1 {
     flex: 1 0 50%;
     max-width: 50%; }
-  .second__item1 {
-    max-width: 527px;
-    margin: auto;
-    text-align: left; }
   .second__item1 h2 {
     font-family: Roboto;
     font-style: normal;
@@ -195,10 +193,9 @@ html {
   .second__dog {
     text-align: center; }
   .second__item2 {
-    max-width: 527px;
-    margin: auto;
-    text-align: left;
-    padding: 25px 0px 0px; }
+    padding: 25px 0px 0px;
+    flex: 1 0 50%;
+    max-width: 50%; }
   .second__item2 h2 {
     font-style: normal;
     font-weight: bold;
@@ -327,8 +324,13 @@ html {
     height: 225px;
     background: #FFF7C2;
     border-radius: 50%; }
+  .third__col:hover .third__col2 {
+    transform: translateX(-50%) scale(1.5); }
   .third__img {
-    margin-top: 40px; }
+    min-height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .third__text1 {
     margin-top: 71px;
     padding: 0px 15px; }
@@ -353,8 +355,9 @@ html {
     width: 150px;
     height: 150px; }
   .third__img {
-    margin-top: 11px;
-    transform: scale(0.6); }
+    min-height: 135px; }
+  .third__img img {
+    max-width: 134px; }
   .third__text1 {
     margin-top: 71px; }
   .third__col h2 {
@@ -369,8 +372,6 @@ html {
     margin-top: 20px; }
   .third__text2 {
     margin-top: 48px; }
-  .third__text3 {
-    margin-top: -33px; }
   .third__how {
     margin-bottom: 20px; }
   .third__but {
@@ -428,6 +429,7 @@ html {
     margin-top: 25px;
     padding-left: 10px; }
   .forth__but button {
+    border: 0;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
